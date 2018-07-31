@@ -25,8 +25,9 @@
   hosts: dbservers
   remote_user: root
   roles:
+    - hadoop
     - java
-    -  spark
+    - spark
 
 #- name: Installing hadoop 2.x
 #  hosts: localhost

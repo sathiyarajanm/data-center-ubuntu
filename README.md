@@ -1,4 +1,4 @@
 # data-center-ubuntu
 
-ansible-playbook -i hosts bigdata-softwares-install.yml
+ansible-playbook -i hosts big-data-softwares-install.yml
 
